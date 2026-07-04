@@ -1,3 +1,8 @@
+[data-termynal] {
+    width: 100%;
+    white-space: pre;
+    font-size: 15px;
+}
 [data-ty-prompt=" "]:before {
     color: lightgray;
 }
