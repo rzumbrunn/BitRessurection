@@ -1,0 +1,12 @@
+[data-ty-prompt=" "]:before {
+    color: lightgray;
+}
+[data-ty-prompt="---"]:before {
+    color: red;
+}
+[data-ty-prompt=" "] {
+    color: lightgray;
+}
+[data-ty-prompt="---"] {
+    color: red;
+}
