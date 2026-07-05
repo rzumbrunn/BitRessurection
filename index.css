@@ -3,15 +3,47 @@
     white-space: pre;
     font-size: 15px;
 }
+/* [data-ty]:not([data-ty="input"]):is(:not([data-ty-prompt="---"]), :not([data-ty-prompt=">>>"])) {
+    color:lightblue;
+} */
 [data-ty-prompt=" "]:before {
+    color: lightgray;
+}
+[data-ty-prompt=" "] {
     color: lightgray;
 }
 [data-ty-prompt="---"]:before {
     color: red;
 }
-[data-ty-prompt=" "] {
-    color: lightgray;
-}
 [data-ty-prompt="---"] {
     color: red;
+}
+[data-ty-prompt=">>>"]:before {
+    color: rgb(100, 100, 255);
+}
+[data-ty-prompt=">>>"] {
+    color: rgb(100, 100, 255);
+}
+[data-ty-prompt="(parted)"]:before {
+    color: rgb(100, 100, 255);
+}
+[data-ty-prompt="(parted)"] {
+    color: rgb(100, 100, 255);
+}
+[data-ty]{
+    text-wrap: wrap;
+}
+[reboot-title] {
+    font-size: 2vw;
+}
+
+.skip-button {
+    position: absolute;
+    color: white;
+    font-size: 2vw;
+    z-index: 1;
+    width: 90%;
+    text-align: right;
+    padding-right: 10%;
+    font-family: 'Fira Mono', Consolas, Menlo, Monaco, 'Courier New', Courier, monospace;
 }
