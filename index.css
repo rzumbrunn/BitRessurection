@@ -36,6 +36,9 @@
 [reboot-title] {
     font-size: 2vw;
 }
+[data-ty="progress"]{
+    font-size: 1vw
+}
 
 .skip-button {
     position: absolute;
